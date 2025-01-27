@@ -2,8 +2,7 @@
 # Homework 1: Docker, SQL, and Terraform
 
 ## Question 1: Docker First Run
-To check the `pip` version in the `python:3.12.8` image:
-```bash
+To check the pip version in the python:3.12.8 image:
 docker run -it --entrypoint bash python:3.12.8
 pip --version
 
